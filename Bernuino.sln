@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bernuino.Arduino", "Bernuino.Arduino", "{00BE23E5-020B-4278-8756-D3B03897CA6A}"
+	ProjectSection(SolutionItems) = preProject
+		Bernuino.Arduino\Bernuino.Arduino.ino = Bernuino.Arduino\Bernuino.Arduino.ino
+		Bernuino.Arduino\CodingWheel.cpp = Bernuino.Arduino\CodingWheel.cpp
+		Bernuino.Arduino\CodingWheel.h = Bernuino.Arduino\CodingWheel.h
+		Bernuino.Arduino\SerialHelper.cpp = Bernuino.Arduino\SerialHelper.cpp
+		Bernuino.Arduino\SerialHelper.h = Bernuino.Arduino\SerialHelper.h
+		Bernuino.Arduino\Settings.h = Bernuino.Arduino\Settings.h
+		Bernuino.Arduino\Stepper.cpp = Bernuino.Arduino\Stepper.cpp
+		Bernuino.Arduino\Stepper.h = Bernuino.Arduino\Stepper.h
+		Bernuino.Arduino\Stitch.cpp = Bernuino.Arduino\Stitch.cpp
+		Bernuino.Arduino\Stitch.h = Bernuino.Arduino\Stitch.h
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bernuino.Core", "Bernuino.Core\Bernuino.Core.csproj", "{56CA1852-D4D1-49F2-9F85-56999FB57110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bernuino.UI", "Bernuino.UI\Bernuino.UI.csproj", "{058D21F1-D856-4A65-9E98-B33D7B627E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bernuino.TestBluetooth", "Bernuino.TestBluetooth\Bernuino.TestBluetooth.csproj", "{5C3710A0-ECD2-4D18-B37B-0F9FAA3B17BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bernuino.App", "Bernuino.App\Bernuino.App.csproj", "{56EB48CB-7E99-4996-AA92-CCC9CDC9BE29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56CA1852-D4D1-49F2-9F85-56999FB57110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CA1852-D4D1-49F2-9F85-56999FB57110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CA1852-D4D1-49F2-9F85-56999FB57110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CA1852-D4D1-49F2-9F85-56999FB57110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058D21F1-D856-4A65-9E98-B33D7B627E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058D21F1-D856-4A65-9E98-B33D7B627E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058D21F1-D856-4A65-9E98-B33D7B627E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058D21F1-D856-4A65-9E98-B33D7B627E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3710A0-ECD2-4D18-B37B-0F9FAA3B17BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3710A0-ECD2-4D18-B37B-0F9FAA3B17BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3710A0-ECD2-4D18-B37B-0F9FAA3B17BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3710A0-ECD2-4D18-B37B-0F9FAA3B17BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EB48CB-7E99-4996-AA92-CCC9CDC9BE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EB48CB-7E99-4996-AA92-CCC9CDC9BE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EB48CB-7E99-4996-AA92-CCC9CDC9BE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EB48CB-7E99-4996-AA92-CCC9CDC9BE29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {921CC297-604B-4EC1-B675-91D74F6DE628}
+	EndGlobalSection
+EndGlobal

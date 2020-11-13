@@ -1,0 +1,15 @@
+﻿<Window x:Class="Bernuino.App.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="clr-namespace:Bernuino.UI;assembly=Bernuino.UI"
+        xmlns:local="clr-namespace:Bernuino.App.Views"
+        mc:Ignorable="d"
+        Title="Bernuino" Height="450" Width="800">
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Content="Open" Command="{Binding OpenCommand}"/>
+        <Button DockPanel.Dock="Top" Content="Save" Command="{Binding SaveCommand}"/>
+        <ui:StitchEditor Stitch="{Binding Stitch}"/>
+    </DockPanel>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bernuino.Core\Bernuino.Core.csproj" />
+    <ProjectReference Include="..\Bernuino.UI\Bernuino.UI.csproj" />
+  </ItemGroup>
+
+</Project>
